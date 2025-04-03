@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+         .contact-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 350px;
+            margin-left: 40%;
+            margin-top: 80px;
+        }
+        .contact-container h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .contact-container input, 
+        .contact-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+        }
+        .contact-container button {
+            background: #ff758c;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .contact-container button:hover {
+            background: #ff5467;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="../picture/images/logo.jpg" alt="Logo">
+            <span>Jewelique</span>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./login.html">Login</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>
